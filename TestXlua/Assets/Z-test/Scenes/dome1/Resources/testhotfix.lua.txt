@@ -1,0 +1,6 @@
+
+local UntiyEngine = CS.UnityEngine
+
+xlua.hotfix(CS.dome1,"OnClickOne",function(self)
+	print(" 点击 2")
+end)
