@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 617768065
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2d879d199abda3c52451892865573613
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Z-test/Scenes/dome1/Resources/load.lua.txt
+Dependencies: []

@@ -1,0 +1,33 @@
+--local UnityEngine = CS.UnityEngine
+--local util = require 'xlua.util'
+
+--local sync_load = util.async_to_sync(CS.ResourceLoad.LoadAB)
+
+
+--return{
+--	load = function(name)
+--	   sync_load(name)
+--	end
+--}
+--load =  xlua.hotfix(CS.ResourceLoad,"LoadAB", name, function(text)
+--	print("加载的text ： " .. text)
+--	end
+ --)
+--require 'gloab.lua.txt'
+
+local load_generic  =  xlua.get_generic_method(CS.ResourceLoad,"LoadAB")
+local load = load_generic(UnityEngine.TextAsset)
+
+load("load.lua.unity3d",function(text)
+	-- AB 加载成功 还没有注入lua虚拟机
+	print("lua 加载文件 " ..  text.text)
+	--local luaenv = CS.dome1
+	--local dome = luaenv()
+	--loacl luaDome = dome.luaenv
+	--print( "lua 是否 " .. luaDome == nil) 
+	--self.luaenv.DoString(text.text)
+	print("lua  加载注入 ")	
+	local res = CS.ResourceLoad
+	print("lua   获取C# " )
+	res.LoadLua(text.text)
+end)

@@ -1,0 +1,11 @@
+
+UnityEngine = CS.UnityEngine 
+GameObject = CS.UnityEngine.GameObject
+util = require 'xlua.util'
+
+--return{
+--	UnityEngine;
+--	GameObject;
+--	ResourceLoad;
+--	util;
+--}

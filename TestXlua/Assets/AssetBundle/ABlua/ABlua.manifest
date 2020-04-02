@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1053362592
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: load.lua.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: dome1.unity3d
+      Dependencies:
+        Dependency_0: load.lua.unity3d
+    Info_2:
+      Name: assetbundload.lua.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: gloab.lua.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: testhotfix.lua.unity3d
+      Dependencies: {}
