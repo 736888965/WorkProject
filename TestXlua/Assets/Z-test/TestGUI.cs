@@ -16,6 +16,7 @@ public class TestGUI : MonoBehaviour
     {
         gameObject.AddComponent<UIManager>();
         // canvas.referenceResolution = new Vector2(Screen.width, Screen.height);
+        //GetComponent<Text>().font = 
     }
 
 

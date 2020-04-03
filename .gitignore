@@ -51,18 +51,16 @@ ExportedObj/
 # Unity3D generated file on crash reports
 sysinfo.txt
 
-LockStepTools/Library/
-LockStepTools/Logs/
-LockStepTools/obj/
-LockStepTools/Packages/
-LockStepTools/Temp/
 TestXlua/Library/
 TestXlua/Logs/
 TestXlua/obj/
 TestXlua/Packages/
 TestXlua/Temp/
-
-
+LockStepTools/Library/
+LockStepTools/Logs/
+LockStepTools/obj/
+LockStepTools/Packages/
+LockStepTools/Temp/
 
 # Builds
 *.apk
