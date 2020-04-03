@@ -40,6 +40,7 @@ public class TestGUI : MonoBehaviour
             Log.LogColor(Decrypt(File.ReadAllBytes("byt.byte")));
         }
 
+        Log.LogColor("测试分支推送");
 
     }
     void GetKey()
