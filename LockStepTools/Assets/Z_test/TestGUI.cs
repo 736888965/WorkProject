@@ -21,6 +21,9 @@ public class TestGUI : MonoBehaviour
         if (GUILayout.Button("", GUILayout.Width(100), GUILayout.Height(50)))
         {
             Logging.Debug.LogError("ceshi");
+            Logging.Debug.LogError("ceshi");
+
+
         }
     }
 }
