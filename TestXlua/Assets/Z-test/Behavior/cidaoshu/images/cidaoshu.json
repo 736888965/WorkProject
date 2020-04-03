@@ -1,0 +1,5 @@
+{"bones":[{"name":"root"}],"slots":[
+{"name":"yan4","bone":"root","attachment":"yan4"},
+],"skins":{"default":{
+"yan4":{"yan4":{"x":249.5,"y":333.5,"width":35,"height":27}},
+}}, "animations": { "animation": {} }}
