@@ -8,6 +8,8 @@ public class Tset1 : MonoBehaviour
     void Start()
     {
         Debug.Log("%%%%%%%%%%%%%");
+        Debug.Log("%%%%%%%%%%%%%");
+
     }
 
     // Update is called once per frame
